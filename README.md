@@ -1,30 +1,36 @@
-# FLO Projeleri - Müşteri Değeri Tahmini ve Segmentasyonu
-Bu projede, FLO'nun gerçek müşteri verileri kullanılarak iki temel analiz gerçekleştirilmiştir:
+# 📈 FLO Projects - Customer Value Prediction & Segmentation
 
-* CLTV Tahmini Projesi:
-BG/NBD ve Gamma-Gamma modelleri kullanılarak, müşterilerin gelecekte şirkete sağlayacakları potansiyel değerin tahmini yapılmıştır.
-* RFM Analizi Projesi:
-Müşteri verileri üzerinden Recency, Frequency ve Monetary metriklerinin hesaplanmasıyla, müşteri segmentasyonu gerçekleştirilmiş ve pazarlama stratejilerine yön verecek öngörüler elde edilmiştir.
+## 📖 Project Description
+This project includes two key analyses using real customer data from FLO:
 
-## Proje Hedefleri
+1. **CLTV Prediction**:  
+   Predicting customers' future value to the company using **BG/NBD** and **Gamma-Gamma** models.
 
-* CLTV Tahmini
+2. **RFM Analysis**:  
+   Segmenting customers based on **Recency, Frequency, and Monetary** metrics to generate actionable marketing insights.
 
-* * Müşteri verilerini ön işleme tabi tutmak
-* * Aykırı değerleri baskılamak ve gerekli veri dönüşümlerini gerçekleştirmek
-* * BG/NBD modeli ile müşterilerin 3 ve 6 aylık satın alma beklentilerini hesaplamak
-* * Gamma-Gamma modeli ile müşterilerin ortalama bırakacakları değeri tahminlemek
-* * 6 aylık CLTV hesaplaması ve segmentlere ayırma işlemlerini gerçekleştirmek
-* * En yüksek CLTV’ye sahip müşteriler üzerinde odaklanmak
+---
 
-* RFM Analizi:
+## 🚀 Project Goals
 
-* * Veriyi anlamlandırmak ve hazırlama sürecini tamamlamak
-* * Müşteri özelinde Recency, Frequency ve Monetary metriklerini hesaplamak
-* * Hesaplanan metrikleri skorlandırarak (1-5 arası) RF_SCORE oluşturmak
-* * Elde edilen skorlar doğrultusunda müşteri segmentleri tanımlamak
-* * Segmentlere yönelik aksiyon önerileri geliştirmek
+### CLTV Prediction:
+- Preprocess customer transaction data
+- Treat outliers and perform necessary transformations
+- Estimate 3-month and 6-month purchase expectations using **BG/NBD model**
+- Predict average customer value with **Gamma-Gamma model**
+- Calculate 6-month CLTV and classify customers into segments
+- Focus on top CLTV customer segments for retention and growth
 
+### RFM Analysis:
+- Prepare and explore the dataset
+- Calculate **Recency**, **Frequency**, and **Monetary** metrics per customer
+- Score each metric (scale 1–5) to form **RF_SCORE**
+- Define customer segments based on these scores
+- Develop marketing actions and recommendations per segment
 
-## Katkıda Bulunanlar
-Muhammet Enes DEMIRKOL – Proje geliştiricisi
+---
+
+## 👨‍💼 Contributors
+**Muhammet Enes DEMIRKOL** – Project Developer
+
+---
